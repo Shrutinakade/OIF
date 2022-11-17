@@ -80,10 +80,10 @@ public void WithDraw(){
 			   count++;
 		  }
 		   
-		  else{
+		   else{
 			  System.out.println("Enter amount within limit");
+		       }
 		  }
-		}
 		catch (Exception e){
 		}
 	
@@ -93,22 +93,23 @@ public void WithDraw(){
 	 Scanner sc =new Scanner(System.in);
 	 System.out.println("Enter Amount to Deposit : ");
 	 double am=sc.nextInt();
+	 
 	 try{
           if(am<100000f){	 
 	      amount=amount+am;
 	  
 	      String str=am+"Rs. Deposit";
 	  
-	     transactionH=transactionH.concat(str);
-	     count++;
+	      transactionH=transactionH.concat(str);
+	      count++;
 	    }
 	
 	    else{
 		  System.out.print("Sorry limit is 1000000\n");
-	     }
-	}
-	catch(Exception e){
-	}
+	        }
+	    }
+	    catch(Exception e){
+	    }
  }
  
  
