@@ -187,17 +187,17 @@ class ATMInterface {
 			 
 		                break;  
 	                case 3:
-		                b.Deposit();
+		            b.Deposit();
 		                break; 
 	                case 4: 
-                        b.Transfer();	 
-	                    break;
-			        case 5:
-			            b.ShowBalance();
-				       break;
-					case 6:
-					   isfinished=true;
-					   break;
+                              b.Transfer();	 
+	                       break;
+			 case 5:
+			      b.ShowBalance();
+		                break;
+			  case 6:
+			      isfinished=true;
+				break;
 	              }
 			 }
 		}
