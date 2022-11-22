@@ -1,7 +1,7 @@
 import java.lang.Math;
 import java.util.*;
 
-class GuessGame {
+class GuessNumber {
 	public static void main(String st[]) {
 		int min = 1;
 		int max = 100;
